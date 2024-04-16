@@ -7,7 +7,7 @@ import ArticleCard from "../../../components/ArticleCard.astro";
 
  const { tag } = Astro.params;
 
- if (tag === 'undefined') {
+ if (tag === undefined) {
     throw new Error('Tag is required');
  }
 
